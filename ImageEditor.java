@@ -9,12 +9,12 @@ import javax.swing.JPanel;
 public class ImageEditor {
 	private static Frame origin;
 	public static void main(String[] args) throws IOException {
-		Frame f = ColorFrame.readFromURL("http://www.cs.unc.edu/~kmp/kmp.jpg");
+		Frame f = ColorFrame.readFromURL("URL HERE");
 		origin = f;
-		f.setTitle("K to the M to the P");
+		f.setTitle("TITLE HERE");
 
 		JFrame main_frame = new JFrame();
-		main_frame.setTitle("Assignment 8 Image Editor");
+		main_frame.setTitle("Image Editor");
 		main_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		ImageEditorModel model = new ImageEditorModel(f);
